@@ -1,6 +1,6 @@
 <?php 
 
-require_once __DIR__ . '/../db/BD.php';
+require_once __DIR__ . '/../db/DB.php';
 
 class Descargas_pdf{
     private $pdo;
