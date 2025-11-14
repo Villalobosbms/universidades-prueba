@@ -1,0 +1,153 @@
+*{
+    font-family: sans-serif;
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+    background: #2A7B9B;
+    background: radial-gradient(circle,rgba(42, 123, 155, 0.41) 0%, rgba(42, 123, 155, 1) 100%);
+}
+
+.form-in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.con-in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid;
+    width: 30vmax;
+    height: 20vmax;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 10px 8px 8px #2A7B9B;
+}
+
+.user-info{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.user-pass{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.form-input{
+    width: 65%;
+}
+
+.but{
+    height: 10%;
+    width: 80%;
+}
+
+.contenido-uni{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.377);
+    backdrop-filter: blur(20px);
+    border-radius: 8px;
+    width: 97%;
+    height: 90%;
+}
+
+#uni{
+    text-align: center;
+    color: rgb(238, 238, 238);
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    background-color: #2A7B9B;
+    border-radius: 8px;
+    padding: 1%;
+}
+
+#pais{
+    text-align: center;
+    background-color: #2A7B9B;
+    color: rgb(238, 238, 238);
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 8px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    padding: 0.1%;
+}
+
+#paises{
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 8px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    padding: 0.1%;
+}
+
+#conPaises{
+    overflow: auto;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 8px;
+    margin-top: 0px;
+    height: 73%;
+}
+
+#lista-universidades {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.tarjeta-uni {
+    background: #f5f5f5;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.tarjeta-uni h3 {
+    margin: 0 0 10px 0;
+}
+
+#btnPDF{
+    float: right;
+    padding: 10px 20px;
+    background: rgb(100, 137, 192);
+    color: white;
+    border: none;
+    margin-right: 8px;
+    border-radius: 8px;
+    
+}
+#btnPDF:hover{
+    background: rgb(75, 102, 143);
+}
+
+#btnCerrar{
+    float: right;
+    padding: 10px 20px;
+    background: rgb(188, 188, 190);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-right: 28px;
+}
+
+#btnCerrar:hover{
+     background: rgb(128, 128, 129);
+}
